@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Menù Lateral con Css</title>
+    <link rel="stylesheet" href="styles_responsive.css">
+</head>
+
+<body>
+    <header class="header" id="main-header">
+        <div class="container">
+            <div class="botonYlogo">
+                <div class="btn-menu">
+                    <label for="btn-menu"><img src="icons/imagen.png" alt="#" class="imagenIcon"></label>
+                </div>
+                <div class="logo">
+                    <img src="icons/Logo 2.gif" alt="#" class="imglogo">
+                </div>
+            </div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="inicio" id="inicio">
+        <div class="contenedor">
+            <img src="icons/Logo 1.gif" alt="">
+            <div class="texto">
+                <h2>
+                    ¡Bienvenido a Compushop!
+                </h2>
+                <p>Somos una empresa dedicada a proporcionar soluciones completas que abarcan insumos de
+                    computación,
+                    equipos
+                    informáticos de última generación, impresoras convencionales y fiscales, servicios de arreglo de
+                    computadoras, instalación de alarmas y cámaras de seguridad. Además, contamos con un sistema de
+                    contabilidad
+                    desarrollado internamente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="two-columns" style="margin-top: 50px;" id="nosotros">
+        <div class="col-1">
+            <div class="image-container">
+                <img src="images/computadora.jpeg" alt="Computer">
+            </div>
+        </div>
+        <div class="col2">
+            <h2 class="title">Acerca de nuestros servicios</h2>
+            <p class="text">Nos especializamos en brindar una amplia gama de servicios informáticos a empresas y
+                particulares. Desde
+                la reparación de hardware hasta el desarrollo de software, lo tenemos cubierto. Obtenga más información
+                sobre lo que tenemos para ofrecer.</p>
+            <a href="#" class="link">Nuestros Servicios</a>
+        </div>
+    </section>
+    <section class="two-columns" id="contacto">
+        <div class="col-1I">
+            <div class="image-container">
+                <img src="images/computadora.jpeg" alt="Computer">
+            </div>
+        </div>
+        <div class="col2I">
+            <h2 class="title">Acerca de nuestros servicios</h2>
+            <p class="text">Nos especializamos en brindar una amplia gama de servicios informáticos a empresas y
+                particulares. Desde
+                la reparación de hardware hasta el desarrollo de software, lo tenemos cubierto. Obtenga más información
+                sobre lo que tenemos para ofrecer.</p>
+            <a href="#" class="link">Nuestros Servicios</a>
+        </div>
+    </section>
+    <section class="two-columns">
+        <div class="col-1">
+            <div class="image-container">
+                <img src="images/computadora.jpeg" alt="Computer">
+            </div>
+        </div>
+        <div class="col2">
+            <h2 class="title">Acerca de nuestros servicios</h2>
+            <p class="text">Nos especializamos en brindar una amplia gama de servicios informáticos a empresas y
+                particulares. Desde
+                la reparación de hardware hasta el desarrollo de software, lo tenemos cubierto. Obtenga más información
+                sobre lo que tenemos para ofrecer.</p>
+            <a href="#" class="link">Nuestros Servicios</a>
+        </div>
+    </section>
+    <section class="two-columns">
+        <div class="col-1I">
+            <div class="image-container">
+                <img src="images/computadora.jpeg" alt="Computer">
+            </div>
+        </div>
+        <div class="col2I">
+            <h2 class="title">Acerca de nuestros servicios</h2>
+            <p class="text">Nos especializamos en brindar una amplia gama de servicios informáticos a empresas y
+                particulares. Desde
+                la reparación de hardware hasta el desarrollo de software, lo tenemos cubierto. Obtenga más información
+                sobre lo que tenemos para ofrecer.</p>
+            <a href="#" class="link">Nuestros Servicios</a>
+        </div>
+    </section>
+
+    <button class="boton" id="botonarriba" onclick="scrollToTop()"><img src="icons/up.png" class="imgUp"></button>
+
+    <!--Menu desplegable--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="#" onclick="handleClick()"><img src="icons/customer-support.png" alt=""
+                        class="iconosmenus">Servicios</a>
+                <a href="#" onclick="handleClick()"><img src="icons/whatsapp.png" alt=""
+                        class="iconosmenus">Whatsapp</a>
+                <a href="#" onclick="handleClick()"><img src="icons/instagram.png" alt=""
+                        class="iconosmenus">Instagram</a>
+                <a href="#" onclick="handleClick()"><img src="icons/facebook-app-symbol.png" alt=""
+                        class="iconosmenus">Facebook</a>
+                <a href="#" onclick="handleClick()"><img src="icons/mail2.png" alt="" class="iconosmenus">Correo</a>
+                <a href="#" onclick="handleClick()"><img src="icons/phone.png" alt="" class="iconosmenus">Telefono</a>
+                <a href="#" onclick="handleClick()"><img src="icons/office.png" alt="" class="iconosmenus">Donde
+                    estamos</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="images/white-background.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/800px-Hikvision_logo.svg.png" height="80" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/AMD_Logo.svg.png" height="80" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/Brother_logo.svg.png" height="80" width="240" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/epson.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/giga.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/hp.png" height="100" width="150" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/intel.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/Kingston-logo.png" height="80" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/lenovo.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/msi.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/nvidia.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/TP-Link-Logo.wine.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/wester.png" height="100" width="250" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/white-background.png" height="100" width="250" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h4 class="copy">@Copyright 2024</h4>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
